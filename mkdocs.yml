@@ -3,7 +3,7 @@ site_description: "Material docent interactiu per a l'alumnat."
 site_author: "Albert Godina Lapaz" # Canvia-ho pel teu nom real si vols
 
 # Important per a GitHub Pages més endavant
-repo_url: https://github.com/albertgodinalapaz/curs-python-web # CANVIA-HO PEL TEU URL REAL QUAN CREIS EL REPO A GITHUB
+repo_url: https://albertgodina.github.io/curs-python-web/ 
 edit_uri: ""
 
 theme:

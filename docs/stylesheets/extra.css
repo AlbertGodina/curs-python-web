@@ -1,0 +1,24 @@
+/* Estils per als blocs de PyScript */
+.py-script-block {
+  background-color: #f8f9fa; /* Gris molt clar */
+  border-left: 4px solid #007bff; /* Línia blava lateral per destacar-lo */
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-family: monospace;
+  border-radius: 4px;
+}
+
+/* Adaptació per al mode fosc de Material Theme */
+[data-md-color-scheme="slate"] .py-script-block {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  border-left-color: #bb86fc; /* Lila en mode fosc */
+}
+
+/* Estil per al output generat per print() */
+.py-output {
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-top: 0.5rem;
+  color: green;
+}

@@ -27,6 +27,28 @@ print(edat)
 
 ```
 
+```html
+### Prova-ho tu mateix (Interactiu)
+
+Pots executar aquest codi directament aquí? Sí! El navegador carregarà Python automàticament.
+
+<div class="py-script-block">
+<py-config>
+packages = [] 
+</py-config>
+
+<py-script>
+# Això s'executarà al teu navegador
+nom = "Anna"
+edat = 25
+altura = 1.75
+
+print(f"Hola, sóc {nom}. Tinc {edat} anys.")
+print(f"La meva altura és {altura} metres.")
+</py-script>
+</div>
+```
+
 ## **2. Els quatre tipus fonamentals**
 
 Per ara, només ens centrarem en aquests quatre. Si entens aquests, ja tens gairebé tot el que necessites per començar.

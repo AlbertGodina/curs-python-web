@@ -51,5 +51,5 @@ plugins:
 extra_css:
   - stylesheets/extra.css       # Crearem això després per estils propis
 
-# extra_javascript:               # Ho descomentarem quan afegim PyScript
-#   - https://pyscript.net/releases/2024.1.1/core.js
+extra_javascript:               # Ho descomentarem quan afegim PyScript
+- https://pyscript.net/releases/2024.1.1/core.js

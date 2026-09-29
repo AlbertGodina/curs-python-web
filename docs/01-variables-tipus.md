@@ -35,7 +35,6 @@ Pots executar aquest codi directament aquí? Sí! El navegador carregarà Python
     <py-config>
         packages = [] 
     </py-config>
-
     <py-script>
 # Això s'executarà al teu navegador
 nom = "Anna"

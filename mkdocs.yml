@@ -1,0 +1,55 @@
+site_name: "Curs de Python: De Zero a Hero"
+site_description: "Material docent interactiu per a l'alumnat."
+site_author: "Albert Godina Lapaz" # Canvia-ho pel teu nom real si vols
+
+# Important per a GitHub Pages més endavant
+repo_url: https://github.com/albertgodinalapaz/curs-python-web # CANVIA-HO PEL TEU URL REAL QUAN CREIS EL REPO A GITHUB
+edit_uri: ""
+
+theme:
+  name: material
+  language: ca  # Català
+  palette:
+    # Mode clar per defecte
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Canviar a mode fosc
+    # Mode fosc
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Canviar a mode clar
+  features:
+    - navigation.sections       # Agrupa seccions al menú lateral
+    - navigation.top            # Botó per tornar amunt
+    - content.code.copy         # Botó per copiar codi fàcilment
+    - content.code.annotate     # Anotacions al codi
+    - toc.follow                # L'índex segueix el scroll
+    - search.suggest            # Suggeriments de cerca
+    - search.highlight          # Ressalta termes buscats
+
+markdown_extensions:
+  - admonition                  # Per a blocs !!! note, !!! warning
+  - pymdownx.details            # Per a desplegables ??? success (solucions)
+  - pymdownx.superfences        # Per a blocs de codi avançats
+  - pymdownx.tabbed             # Pestanyes (útil per mostrar diferents enfocaments)
+  - attr_list                   # Permet atributs HTML als elements Markdown
+  - md_in_html                  # Permet HTML dins Markdown (necessari per PyScript després)
+  - toc:
+      permalink: true           # Enllaços directes als títols (#)
+
+plugins:
+  - search                      # Cercador intern
+
+extra_css:
+  - stylesheets/extra.css       # Crearem això després per estils propis
+
+# extra_javascript:               # Ho descomentarem quan afegim PyScript
+#   - https://pyscript.net/releases/2024.1.1/core.js

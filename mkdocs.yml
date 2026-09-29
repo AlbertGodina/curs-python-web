@@ -49,8 +49,8 @@ plugins:
   - search                      # Cercador intern
 
 extra_css:
-  - stylesheets/extra.css       
+  - stylesheets/extra.css
 
 extra_javascript:
-  - url: https://pyscript.net/releases/2024.1.1/core.js
-    type: module
+  # Utilitzem la versió estable que funciona com a script global
+  - https://pyscript.net/releases/2024.1.1/core.js

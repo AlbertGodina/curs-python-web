@@ -51,5 +51,6 @@ plugins:
 extra_css:
   - stylesheets/extra.css       
 
-extra_javascript:               
-- https://pyscript.net/releases/2024.1.1/core.js
+extra_javascript:
+  - url: https://pyscript.net/releases/2024.1.1/core.js
+    type: module

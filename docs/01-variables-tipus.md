@@ -32,11 +32,11 @@ print(edat)
 Pots executar aquest codi directament aquí? Sí! El navegador carregarà Python automàticament.
 
 <div class="py-script-block">
-<py-config>
-packages = [] 
-</py-config>
+    <py-config>
+        packages = [] 
+    </py-config>
 
-<py-script>
+    <py-script>
 # Això s'executarà al teu navegador
 nom = "Anna"
 edat = 25
@@ -44,7 +44,7 @@ altura = 1.75
 
 print(f"Hola, sóc {nom}. Tinc {edat} anys.")
 print(f"La meva altura és {altura} metres.")
-</py-script>
+    </py-script>
 </div>
 
 ## **2. Els quatre tipus fonamentals**

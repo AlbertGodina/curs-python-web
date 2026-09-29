@@ -49,7 +49,7 @@ plugins:
   - search                      # Cercador intern
 
 extra_css:
-  - stylesheets/extra.css       # Crearem això després per estils propis
+  - stylesheets/extra.css       
 
-extra_javascript:               # Ho descomentarem quan afegim PyScript
+extra_javascript:               
 - https://pyscript.net/releases/2024.1.1/core.js

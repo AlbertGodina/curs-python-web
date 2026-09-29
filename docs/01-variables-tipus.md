@@ -29,16 +29,15 @@ print(edat)
 
 ### Prova-ho tu mateix (Interactiu)
 
-Pots executar aquest codi directament aquí! El navegador carregarà Python automàticament.
+Pots executar aquest codi directament aquí? Sí! El navegador carregarà Python automàticament.
 
-<!-- Aquest és el bloc real de PyScript. NO ha d'estar entre ``` -->
-
+<!-- INICI BLOC PYSRIPT -->
 <div class="py-script-block">
-<py-config>
-packages = [] 
-</py-config>
+    <py-config>
+        packages = [] 
+    </py-config>
 
-<py-script>
+    <py-script>
 # Això s'executarà al teu navegador
 nom = "Anna"
 edat = 25
@@ -46,8 +45,10 @@ altura = 1.75
 
 print(f"Hola, sóc {nom}. Tinc {edat} anys.")
 print(f"La meva altura és {altura} metres.")
-</py-script>
+    </py-script>
 </div>
+<!-- FI BLOC PYSRIPT -->
+
 
 ## **2. Els quatre tipus fonamentals**
 

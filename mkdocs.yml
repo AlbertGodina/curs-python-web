@@ -50,7 +50,3 @@ plugins:
 
 extra_css:
   - stylesheets/extra.css
-
-extra_javascript:
-  # Utilitzem la versió estable que funciona com a script global
-  - https://pyscript.net/releases/2024.1.1/core.js

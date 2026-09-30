@@ -50,3 +50,10 @@ plugins:
 
 extra_css:
   - stylesheets/extra.css
+  
+nav:
+  - Inici: index.md
+  - Unitat 0: Preparació: 00-preparacio.md
+  - Unitat 1: Variables i Tipus: 01-variables-tipus.md
+  - Unitat 2: Condicionals: 02-condicionals.md
+  - Unitat 3: Bucles: 03-bucles.md

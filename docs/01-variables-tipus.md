@@ -27,27 +27,33 @@ print(edat)
 
 ```
 
-### Prova-ho tu mateix (Interactiu)
+### 🛠️ Prova-ho tu mateix amb Thonny
 
-Pots executar aquest codi directament aquí? Sí! El navegador carregarà Python automàticament.
+Com que aquesta web no executa codi directament, hauràs d'utilitzar un editor de text local recomanat per al curs: **Thonny**.
 
-<div class="py-script-block">
+1. Obre Thonny.
+2. Crea un nou fitxer (`File > New`).
+3. Copia i enganxa el següent codi:
 
-<py-config>
-packages = [] 
-</py-config>
-
-<py-script>
-# Això s'executarà al teu navegador
+```python
 nom = "Anna"
 edat = 25
 altura = 1.75
 
 print(f"Hola, sóc {nom}. Tinc {edat} anys.")
 print(f"La meva altura és {altura} metres.")
-</py-script>
+```
+4. Desa el fitxer com a exercici_1.py.
+5. Executa'l fent clic al botó verd ▶️ o prement F5.
+!!! tip "Què has de veure?"
+A la consola inferior de Thonny hauria d'aparèixer:
+text Hola, sóc Anna. Tinc 25 anys. La meva altura és 1.75 metres.
+Si et surt algun error, revisa:
+Les cometes (").
+Els parèntesis tancats correctament.
+Que hagis desat el fitxer abans d'executar-lo.
 
-</div>
+
 
 ## **2. Els quatre tipus fonamentals**
 

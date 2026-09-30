@@ -41,19 +41,17 @@ markdown_extensions:
   - pymdownx.superfences        # Per a blocs de codi avançats
   - pymdownx.tabbed             # Pestanyes (útil per mostrar diferents enfocaments)
   - attr_list                   # Permet atributs HTML als elements Markdown
-  - md_in_html                  # Permet HTML dins Markdown (necessari per PyScript després)
   - toc:
       permalink: true           # Enllaços directes als títols (#)
 
 plugins:
   - search                      # Cercador intern
 
-extra_css:
-  - stylesheets/extra.css
+
   
 nav:
   - Inici: index.md
   - Unitat 0: Preparació: 00-preparacio.md
   - Unitat 1: Variables i Tipus: 01-variables-tipus.md
-  - Unitat 2: Condicionals: 02-condicionals.md
+  - Unitat 2: Operadors i Text bàsic: 02-operadors.md
   - Unitat 3: Bucles: 03-bucles.md

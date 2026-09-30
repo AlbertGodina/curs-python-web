@@ -26,7 +26,6 @@ Necessites instal·lar Python al teu ordinador.
 Tot i que pots usar qualsevol editor de text pla, recomanem:
 
 - **Thonny**: Ideal per a principiants absoluts (veuràs les variables pas a pas).
-- **VS Code**: Més potent, estàndard industrial.
 
 !!! warning "Evita Word o Pages!"
     Mai escriguis codi en processadors de text com Microsoft Word. Han de ser editors de **text pla** (.txt, .py).
@@ -37,3 +36,5 @@ El primer programa de tot programador imprimeix un missatge a pantalla.
 
 ```python
 print("Hola, món!")
+```
+

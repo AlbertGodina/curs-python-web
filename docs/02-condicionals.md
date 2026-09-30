@@ -1,5 +1,4 @@
 
-```markdown
 # Unitat 2: Presa de Decisions (Condicionals)
 
 Fins ara, els nostres programes han seguit sempre el mateix camí de dalt a baix. Amb els condicionals, podem fer que el programa prengui decisions: *"Si passa això, fes allò; sinó, fes una altra cosa"*.

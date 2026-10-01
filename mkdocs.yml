@@ -1,14 +1,16 @@
 site_name: "Curs de Python: De Zero a Hero"
-site_description: "Material docent interactiu per a l'alumnat."
-site_author: "Albert Godina Lapaz" # Canvia-ho pel teu nom real si vols
+site_description: "Material docent per aprendre Python des de zero."
+site_author: "Albert Godina Lapaz"
 
-# Important per a GitHub Pages més endavant
-repo_url: https://albertgodina.github.io/curs-python-web/ 
+# Adreça del web publicat a GitHub Pages
+site_url: https://albertgodina.github.io/curs-python-web/
+# Adreça del repositori 
+repo_url: https://github.com/albertgodina/curs-python-web
 edit_uri: ""
 
 theme:
   name: material
-  language: ca  # Català
+  language: ca
   palette:
     # Mode clar per defecte
     - media: "(prefers-color-scheme: light)"
@@ -29,6 +31,7 @@ theme:
   features:
     - navigation.sections       # Agrupa seccions al menú lateral
     - navigation.top            # Botó per tornar amunt
+    - navigation.footer         # Enllaços "Anterior / Següent" al peu de pàgina
     - content.code.copy         # Botó per copiar codi fàcilment
     - content.code.annotate     # Anotacions al codi
     - toc.follow                # L'índex segueix el scroll
@@ -36,23 +39,39 @@ theme:
     - search.highlight          # Ressalta termes buscats
 
 markdown_extensions:
-  - admonition                  # Per a blocs !!! note, !!! warning
-  - pymdownx.details            # Per a desplegables ??? success (solucions)
-  - pymdownx.superfences        # Per a blocs de codi avançats
-  - pymdownx.tabbed             # Pestanyes (útil per mostrar diferents enfocaments)
-  - attr_list                   # Permet atributs HTML als elements Markdown
+  - admonition                  # Blocs !!! note, !!! warning, !!! failure...
+  - pymdownx.details            # Desplegables ??? success (solucions)
+  - pymdownx.superfences        # Blocs de codi (també dins de les caixes)
+  - pymdownx.highlight:         # Ressaltat de sintaxi del codi
+      anchor_linenums: true
+  - pymdownx.inlinehilite       # Codi dins del text amb ressaltat
+  - pymdownx.tabbed:            # Pestanyes
+      alternate_style: true
+  - attr_list
   - toc:
-      permalink: true           # Enllaços directes als títols (#)
+      permalink: true          # Enllaços directes als títols
 
 plugins:
-  - search                      # Cercador intern
+  - search
 
-extra_css:
-  - stylesheets/extra.css
-  
+# Si més endavant es creen docs/stylesheets/extra.css, descomentar aquestes línies:
+# extra_css:
+#   - stylesheets/extra.css
+
+# Rutes relatives a la carpeta docs/
 nav:
   - Inici: index.md
-  - "Unitat 0: Preparació": 00-preparacio.md
-  - "Unitat 1: Variables i Tipus": 01-variables-tipus.md
-  - "Unitat 2: Operadors i Text bàsic": 02-operadors.md
-  - "Unitat 3: Bucles": 03-bucles.md
+  - Unitats:
+      - "0. Preparació de l'entorn": 00-preparacio.md
+      - "1. Variables i entrada/sortida": 01-variables-entrada-sortida.md
+      - "2. Operadors i text bàsic": 02-operadors-text.md
+      - "3. Condicionals": 03-condicionals.md
+      - "4. Bucles": 04-bucles.md
+      - "5. Funcions": 05-funcions.md
+      # - "6. Llistes": 06-llistes.md
+      # - "7. Projecte final": 07-projecte-final.md
+  # - Extres:
+  #     - "Tuples": extres/tuples.md
+  #     - "Diccionaris": extres/diccionaris.md
+  #     - "Fitxers": extres/fitxers.md
+  #     - "Gestió d'errors (try/except)": extres/try-except.md

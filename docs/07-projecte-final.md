@@ -311,7 +311,7 @@ Observa que **cada funció fa una sola cosa** i que el programa principal queda 
 
 ### Rúbrica orientativa
 
-| Criteri | Excel·lent | Notable | Suficient | Insuficient |
+| Criteri | A. Excel·lent | A. Notable | A. Satisfactori | No Assoliment |
 | --- | --- | --- | --- | --- |
 | **Funcionament** | Fa tot el que demana el projecte i alguna ampliació, sense errors | Fa tot el mínim sense errors | Fa gairebé tot el mínim, amb algun error | No funciona o falta bona part del mínim |
 | **Estructura i funcions** | Funcions ben dividides (una tasca cada una) i programa principal curt | Funcions correctes, algun bloc massa llarg | Poques funcions o poc útils | Tot el codi seguit, sense funcions |

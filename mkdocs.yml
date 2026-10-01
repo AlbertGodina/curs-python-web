@@ -61,13 +61,12 @@ plugins:
 # Rutes relatives a la carpeta docs/
 nav:
   - Inici: index.md
-  - Unitats:
-      - "0. Preparació de l'entorn": 00-preparacio.md
-      - "1. Variables i entrada/sortida": 01-variables-entrada-sortida.md
-      - "2. Operadors i text bàsic": 02-operadors-text.md
-      - "3. Condicionals": 03-condicionals.md
-      - "4. Bucles": 04-bucles.md
-      - "5. Funcions": 05-funcions.md
+  - "0. Preparació de l'entorn": 00-preparacio.md
+  - "1. Variables i entrada/sortida": 01-variables-entrada-sortida.md
+  - "2. Operadors i text bàsic": 02-operadors-text.md
+  - "3. Condicionals": 03-condicionals.md
+  - "4. Bucles": 04-bucles.md
+  - "5. Funcions": 05-funcions.md
       # - "6. Llistes": 06-llistes.md
       # - "7. Projecte final": 07-projecte-final.md
   # - Extres:

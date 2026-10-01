@@ -69,7 +69,7 @@ nav:
   - "5. Funcions": 05-funcions.md
   - "6. Llistes": 06-llistes.md
   - "7. Projecte final": 07-projecte-final.md
- - Extres:
+  - Extres:
       - "1. Gestió d'errors": extres/01-gestio-errors.md
       # - "2. Text avançat": extres/02-text-avancat.md
       # - "3. Tuples i conjunts": extres/03-tuples-conjunts.md

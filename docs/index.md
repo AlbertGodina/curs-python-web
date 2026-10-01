@@ -9,9 +9,9 @@ No cal que tinguis coneixements previs de programació. Començarem per les base
 El curs està dividit en 10 unitats. Pots accedir a cadascuna d'elles des del menú lateral:
 
 * **[Unitat 0. Preparació de l'entorn](00-preparacio.md)**: Què és Python, instal·lació de Thonny i el teu primer programa.
-* **[Unitat 1. Entrada, sortida i variables](01-variables-tipus.md)**: Com guardar dades i comunicar-nos amb l'usuari (`print` i `input`).
-* **[Unitat 2. Operadors i expressions](02-operadors.md)**: Fer càlculs i operacions lògiques.
-* **[Unitat 3. Condicionals](03-bucles.md)**: Fer que el programa prengui decisions (`if`, `elif`, `else`). *(Nota: recorda ajustar l'enllaç quan tinguis l'arxiu 03-condicionals.md)*
+* **[Unitat 1. Entrada, sortida i variables](01-variables-entrada-sortida.md)**: Com guardar dades i comunicar-nos amb l'usuari (`print` i `input`).
+* **[Unitat 2. Operadors i expressions](02-operadors-text.md)**: Fer càlculs i operacions lògiques.
+* **[Unitat 3. Condicionals](03-condicionals.md)**: Fer que el programa prengui decisions (`if`, `elif`, `else`). *(Nota: recorda ajustar l'enllaç quan tinguis l'arxiu 03-condicionals.md)*
 * **Unitat 4. Bucles**: Repetir tasques automàticament (`while` i `for`).
 * **Unitat 5. Estructures de dades bàsiques**: Treballar amb moltes dades a la vegada (llistes, tuples i diccionaris).
 * **Unitat 6. Funcions**: Crear els teus propis blocs de codi per no repetir-te.

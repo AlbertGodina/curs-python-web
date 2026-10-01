@@ -69,8 +69,10 @@ nav:
   - "5. Funcions": 05-funcions.md
   - "6. Llistes": 06-llistes.md
   - "7. Projecte final": 07-projecte-final.md
-  # - Extres:
-  #     - "Tuples": extres/tuples.md
-  #     - "Diccionaris": extres/diccionaris.md
-  #     - "Fitxers": extres/fitxers.md
-  #     - "Gestió d'errors (try/except)": extres/try-except.md
+ - Extres:
+      - "1. Gestió d'errors": extres/01-gestio-errors.md
+      # - "2. Text avançat": extres/02-text-avancat.md
+      # - "3. Tuples i conjunts": extres/03-tuples-conjunts.md
+      # - "4. Diccionaris": extres/04-diccionaris.md
+      # - "5. Fitxers": extres/05-fitxers.md
+      # - "6. Classes i objectes": extres/06-classes.md

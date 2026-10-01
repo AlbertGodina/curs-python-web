@@ -15,7 +15,7 @@ El curs té **8 unitats**. Pots anar a cadascuna des del menú lateral o des d'a
 * **[Unitat 4. Bucles](04-bucles.md)**: repetir tasques automàticament (`while` i `for`).
 * **[Unitat 5. Funcions](05-funcions.md)**: crear els teus propis blocs de codi per no repetir-te.
 * **[Unitat 6. Llistes](06-llistes.md)**: treballar amb moltes dades a la vegada.
-* **Unitat 7. Projecte final**: aplicar tot l'après en un programa teu (un joc, una agenda, una calculadora...).
+* **[Unitat 7. Projecte final](07-projecte-final.md)**: aplicar tot l'après en un programa teu (un joc, una agenda, una calculadora...).
 
 ## Com és cada unitat 
 

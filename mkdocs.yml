@@ -67,7 +67,7 @@ nav:
   - "3. Condicionals": 03-condicionals.md
   - "4. Bucles": 04-bucles.md
   - "5. Funcions": 05-funcions.md
-      # - "6. Llistes": 06-llistes.md
+  - "6. Llistes": 06-llistes.md
       # - "7. Projecte final": 07-projecte-final.md
   # - Extres:
   #     - "Tuples": extres/tuples.md

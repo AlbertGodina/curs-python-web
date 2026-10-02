@@ -58,7 +58,7 @@ Abans de pujar-lo, comprova sempre la llista de verificació que hi ha al final 
 * **Copiar codi:** cada bloc de codi té una icona a dalt a la dreta per copiar-lo i enganxar-lo a Thonny.
 * **Mode fosc:** si et cansa la vista, fes clic a la icona del sol/lluna de la capçalera.
 
-## Consells per aprendre a programar 💡
+## Consells per aprendre a programar 
 
 * **Escriu el codi tu mateix** en lloc de copiar-lo sempre: és com s'aprèn de debò.
 * **Modifica els exemples** per veure què passa. No es trenca res!
@@ -68,4 +68,4 @@ Abans de pujar-lo, comprova sempre la llista de verificació que hi ha al final 
 
 Estàs a punt? Som-hi! 
 
-[➡️ Comença per la Unitat 0](00-preparacio.md){ .md-button .md-button--primary }
+[Comença per la Unitat 0](00-preparacio.md){ .md-button .md-button--primary }

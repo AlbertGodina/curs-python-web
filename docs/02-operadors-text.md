@@ -215,7 +215,7 @@ print(paraula * 3)
 
     - **Missatge (similar a):** `ZeroDivisionError: division by zero`
     - **Què vol dir:** és una operació impossible. Passa també amb `//` i `%`.
-    - **Com es corregeix:** comprova que el divisor no és zero (ho farem a la unitat 3, amb condicionals).
+    - **Com es corregeix:** comprova que el divisor no és zero (ho farem a la unitat 4, amb condicionals).
 
 !!! failure "Comparar text amb un nombre"
     ```python

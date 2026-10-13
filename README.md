@@ -54,9 +54,9 @@ Per a l'alumnat que acaba abans o vol aprofundir. No tenen lliurament: porten ac
 | 1 | Gestió d'errors (`try/except`) | ✅ |
 | 2 | Text avançat (*slicing* i mètodes) | ✅ |
 | 3 | Tuples i conjunts | ✅ |
-| 4 | Diccionaris | 🔜 |
-| 5 | Fitxers | 🔜 |
-| 6 | Classes i objectes | 🔜 |
+| 4 | Diccionaris | ✅ |
+| 5 | Fitxers | ✅ |
+| 6 | Classes i objectes | ✅ |
 
 ##  Com és cada unitat
 

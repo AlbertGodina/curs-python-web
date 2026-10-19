@@ -4,12 +4,13 @@ site_author: "Albert Godina Lapaz"
 
 # Adreça del web publicat a GitHub Pages
 site_url: https://albertgodina.github.io/curs-python-web/
-# Adreça del repositori 
+# Adreça del repositori (comprova que sigui correcta)
 repo_url: https://github.com/albertgodina/curs-python-web
 edit_uri: ""
 
 theme:
   name: material
+  custom_dir: overrides
   language: ca
   palette:
     # Mode clar per defecte
@@ -38,6 +39,11 @@ theme:
     - search.suggest            # Suggeriments de cerca
     - search.highlight          # Ressalta termes buscats
 
+# Estadístiques de visites (GoatCounter, sense galetes)
+extra:
+  analytics:
+    provider: custom
+
 markdown_extensions:
   - admonition                  # Blocs !!! note, !!! warning, !!! failure...
   - pymdownx.details            # Desplegables ??? success (solucions)
@@ -54,7 +60,7 @@ markdown_extensions:
 plugins:
   - search
 
-# Si més endavant es creen docs/stylesheets/extra.css, descomentar aquestes línies:
+# Si vols utilitzar estils propis, descomenta aquestes línies (docs/stylesheets/extra.css):
 # extra_css:
 #   - stylesheets/extra.css
 
@@ -69,7 +75,7 @@ nav:
   - "5. Funcions": 05-funcions.md
   - "6. Llistes": 06-llistes.md
   - "7. Projecte final": 07-projecte-final.md
-  - Extres: 
+  - Extres:
       - "Presentació": extres/index.md
       - "1. Gestió d'errors": extres/01-gestio-errors.md
       - "2. Text avançat": extres/02-text-avancat.md
@@ -77,3 +83,4 @@ nav:
       - "4. Diccionaris": extres/04-diccionaris.md
       - "5. Fitxers": extres/05-fitxers.md
       - "6. Classes i objectes": extres/06-classes.md
+  - Xuletes: xuletes.md

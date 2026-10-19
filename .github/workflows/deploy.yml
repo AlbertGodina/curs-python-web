@@ -22,7 +22,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Descarrega el repositori
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Instal·la Python
         uses: actions/setup-python@v6

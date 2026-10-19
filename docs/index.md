@@ -1,10 +1,10 @@
-# Benvinguts al Curs de Python! 
+# Benvinguts al Curs de Python! 🐍
 
 Hola! Aquest és el material del curs de **Python per a 4t d'ESO**. Aquí trobaràs la teoria, els exemples resolts i les activitats que farem servir a classe per aprendre a programar des de zero.
 
 No cal que tinguis coneixements previs de programació. Ja has treballat el pensament computacional i els algorismes: ara els escriurem en un llenguatge real. Començarem per les bases i, a poc a poc, construirem programes més complexos fins a crear el teu propi projecte final.
 
-## Què aprendrem? 
+## Què aprendrem? 📚
 
 El curs té **8 unitats**. Pots anar a cadascuna des del menú lateral o des d'aquesta llista:
 
@@ -17,7 +17,18 @@ El curs té **8 unitats**. Pots anar a cadascuna des del menú lateral o des d'a
 * **[Unitat 6. Llistes](06-llistes.md)**: treballar amb moltes dades a la vegada.
 * **[Unitat 7. Projecte final](07-projecte-final.md)**: aplicar tot l'après en un programa teu (un joc, una agenda, una calculadora...).
 
-## Com és cada unitat 
+## Extres: per anar més lluny 🚀
+
+Quan acabis les unitats (o si vas més ràpid), tens els **[Extres](extres/index.md)**: pàgines d'ampliació opcionals, sense lliurament, amb activitats i solucions desplegables.
+
+* **[Gestió d'errors](extres/01-gestio-errors.md)**: perquè el programa no peti quan l'usuari s'equivoca.
+* **[Text avançat](extres/02-text-avancat.md)**: talls de text, mètodes, `split` i `join`.
+* **[Tuples i conjunts](extres/03-tuples-conjunts.md)**: dades que no canvien i valors únics.
+* **[Diccionaris](extres/04-diccionaris.md)**: parelles clau-valor i freqüències.
+* **[Fitxers](extres/05-fitxers.md)**: guardar i recuperar dades.
+* **[Classes i objectes](extres/06-classes.md)**: crea els teus propis tipus de dades.
+
+## Com és cada unitat 🧩
 
 Totes les unitats tenen la mateixa estructura perquè sàpigues sempre on buscar què:
 
@@ -31,11 +42,11 @@ Totes les unitats tenen la mateixa estructura perquè sàpigues sempre on buscar
 8. **Repte opcional**: per a qui vulgui anar més lluny.
 9. **Xuleta**: un resum per consultar ràpid.
 
-## Què necessites 
+## Què necessites 💻
 
 Només cal que tinguis instal·lat **[Thonny](https://thonny.org)**, un editor pensat per aprendre Python. Ja porta Python inclòs, així que no cal instal·lar res més. A la [Unitat 0](00-preparacio.md) t'expliquem com fer-ho pas a pas.
 
-## Com es lliuren les activitats 
+## Com es lliuren les activitats 📤
 
 Els lliuraments es fan a **Google Classroom**. A cada unitat trobaràs un apartat **«Lliurament (Classroom)»** amb l'enunciat i les condicions. Sempre has de pujar un fitxer `.py` amb aquest format:
 
@@ -51,14 +62,15 @@ Els lliuraments es fan a **Google Classroom**. A cada unitat trobaràs un aparta
 
 Abans de pujar-lo, comprova sempre la llista de verificació que hi ha al final de cada lliurament. Sobretot, assegura't que **el programa s'executa sense errors**.
 
-## Com utilitzar aquest web 
+## Com utilitzar aquest web 🔎
 
 * **Menú lateral:** navega entre unitats. A la dreta tens l'índex de la unitat en què ets.
 * **Cercador:** a dalt a la dreta. Si no recordes com es feia una cosa, escriu-ho allà!
 * **Copiar codi:** cada bloc de codi té una icona a dalt a la dreta per copiar-lo i enganxar-lo a Thonny.
+* **Xuletes:** a la pàgina de [Xuletes](xuletes.md) tens resums imprimibles en PDF.
 * **Mode fosc:** si et cansa la vista, fes clic a la icona del sol/lluna de la capçalera.
 
-## Consells per aprendre a programar 
+## Consells per aprendre a programar 💡
 
 * **Escriu el codi tu mateix** en lloc de copiar-lo sempre: és com s'aprèn de debò.
 * **Modifica els exemples** per veure què passa. No es trenca res!
@@ -66,6 +78,6 @@ Abans de pujar-lo, comprova sempre la llista de verificació que hi ha al final 
 * **Prova el programa amb diferents valors**, sobretot els límits.
 * Si et bloqueges, torna als exemples de la unitat i fes el programa pas a pas amb el depurador de Thonny.
 
-Estàs a punt? Som-hi! 
+Estàs a punt? Som-hi! 🚀
 
-[Comença per la Unitat 0](00-preparacio.md){ .md-button .md-button--primary }
+[➡️ Comença per la Unitat 0](00-preparacio.md){ .md-button .md-button--primary }
